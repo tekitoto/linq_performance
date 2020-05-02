@@ -62,7 +62,7 @@ public class WhereSelectByForLoop : ICalculateProcessingTime
     public void ProcessMain()
     {
         var temp = new List<string>();
-        for (int i = 0; i < data.Count(); ++i)
+        for (int i = 0; i < data.Count; ++i)
         {
             if (data[i].Id % 5 == 0)
             {
