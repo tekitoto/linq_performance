@@ -56,8 +56,6 @@ public class Runner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Thread.Sleep(1000);
-
         Debug.Log($"Frequency = {ProcessingTimeCalculator.Frequency()}");
 
         foreach ((int size, int times) in sizeAndTimes)
